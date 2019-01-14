@@ -1,0 +1,19 @@
+{
+    "name": "expressTemplate",
+    "version": "1.0.0",
+    "description": "Template for express project",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build && node build/index.js"
+    },
+    "author": "fjt",
+    "devDependencies": {
+        "@types/express": "^4.16.0",
+        "@types/node": "^10.3.3"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "typescript": "^2.9.2"
+    }
+}
